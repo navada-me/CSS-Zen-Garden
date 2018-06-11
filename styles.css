@@ -1,0 +1,270 @@
+/*this imports meyer stylesheet */
+@import 'meyer.css';
+
+/*body tag to set whole frame width and height*/
+body{
+	width: 98%;
+	height: 100%;
+}
+
+/*removes the link items style from main body*/
+body a{
+	text-decoration: none;
+}
+/*header*/
+header{
+	background-color: #49c5b6;
+	opacity: 0.8;
+    color: #fbf7f7;
+    padding-top: 1px;
+    margin-left: 160px;
+    border-radius: 45px;
+}
+
+/*heading one layout*/
+h1{
+	margin-left: 20%;
+    font-size: 4em;
+}
+
+/*heading 2 layout*/
+h2{
+	margin-left: 50%;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 2em;
+}
+
+
+/*this sets the visible area width*/
+.page-wrapper{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+/*left sidebar*/
+aside.sidebar {
+	font-size: 16px;
+    top: 20.5%;
+    width: 16.75%;
+    border-radius: 34px;
+    display: block;
+    position: absolute;
+    background-color: #DF6C4F;
+    margin: 0;
+    width: 258px;
+    opacity: 0.8;
+    color: #000;
+    height: auto;
+    padding: 2%;
+}
+
+/*heading 3 styling under sidebar */
+.sidebar h3{
+	font-size: 38px;
+	color: white;
+}
+
+/*this is for all the links reside in a sidebar to remove underline as well as blue*/
+.sidebar a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	word-spacing: 2px;
+}
+
+/*to remove links and it's color from the sidebar design-selection section*/
+.design-selection a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-size: 28px;
+	word-spacing: 2px;
+}
+
+/*lists specific styling using the class and html list tag*/
+.design-selection li{
+	color: white;
+	margin: 20px 0; /* this creates gap between list so that they are distinguisable */
+	font-size: 24px;
+	text-align:left;
+	padding-left: 6px;
+	list-style-type: none;
+	border-radius: 14px;
+	border-bottom: solid #49c5b6;
+}
+
+/*this will target the design-archive section in a sidebar*/
+.design-archives li{
+	color: white;
+	margin: 20px 0; /* this creates gap between list so that they are distinguisable */
+	font-size: 26px;
+	padding-left: 6px;
+	list-style-type: none;
+	border-radius: 14px;
+	border-bottom: solid #49c5b6;
+}
+
+/*this is for the zen resources sidebar lists*/
+.zen-resources li{
+	padding-left: 6px;
+	list-style-type: none; /* removes list circle */
+	color: white;
+	margin: 20px 0; /* this creates gap between list so that they are distinguisable */
+	border-radius: 14px;
+	border-bottom: solid #49c5b6;
+	font-size: 26px;
+	text-align:left;
+}
+
+
+/*summary style with right and left borders with curvy touch*/
+#zen-summary{
+	color: black; /* text color black */
+    padding: 4px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #DF6C4F; /* right border */
+    border-left: solid #DF6C4F; /* left border */
+}
+
+/*preamble style with right and left borders with curvy touch*/
+#zen-preamble{
+	color: black;
+	margin-top: 8px;
+    padding: 4px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #49c5b6; /* right border */
+    border-left: solid #49c5b6;/* left border */
+}
+
+/*targeting heading 3 in zen-preamble*/
+#zen-preamble h3{
+	font-size: 28px;
+    background-color: #49c5b6;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/*zen-explanation style code*/
+#zen-explanation{
+	color: black;
+	margin-top: 8px;
+    padding: 4px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #DF6C4F; /* right border */
+    border-left: solid #DF6C4F;/* left border */
+}
+
+/*targeting heading 3 in zen-explanation*/
+#zen-explanation h3{
+	font-size: 28px;
+    background-color: #DF6C4F;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/*zen-partcipation style code*/
+#zen-participation{
+	color: black;
+    padding: 4px;
+    margin-top: 8px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #49c5b6; /* right border */
+    border-left: solid #49c5b6;/* left border */
+}
+
+/*targeting heading 3 in zen-participation*/
+#zen-participation h3{
+	font-size: 28px;
+    background-color: #49c5b6;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/*zen-benefits style code*/
+#zen-benefits{
+	color: black;
+    padding: 4px;
+    margin-top: 8px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #DF6C4F; /* right border */
+    border-left: solid #DF6C4F;/* left border */
+}
+
+/*targeting heading 3 in zen-benefits*/
+#zen-benefits h3{
+	font-size: 28px;
+    background-color: #DF6C4F;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/*zen-requirements style code*/
+#zen-requirements{
+	color: black;
+    padding: 4px;
+    margin-top: 8px;
+    background-color: rgba(255,255,255,0.9);
+    margin-left: 330px;
+    background-size: cover;
+    opacity: 0.8;
+    border-radius: 27px;
+    border-right: solid #49c5b6; /* right border */
+    border-left: solid #49c5b6;	/* left border */
+}
+
+/*targeting heading 3 in zen-requirements*/
+#zen-requirements h3{
+	font-size: 28px;
+    background-color: #49c5b6; 
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/*footer stylecode is here*/
+footer{
+    color: black;
+    background-color: #DF6C4F;
+    width: 100%;
+    height: auto;
+    margin: 4px;
+    opacity: 0.8;
+    padding-top: 1px;
+    border-radius: 14px;
+    border-right: solid black;
+    border-left: solid black;
+    background-size: cover;
+    clear: both;
+}
+
+/*footer links style removed by this*/
+footer a {
+	text-decoration: none;
+	padding-left: 150px;
+	color: black;
+	font-size: 32px;
+}
